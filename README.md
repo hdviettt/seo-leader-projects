@@ -6,9 +6,15 @@ This directory is a workspace, not a single repository. Each subdirectory below 
 
 ## The three projects
 
-### [vn-aio-atlas](./vn-aio-atlas) — the empirical study
+### [vn-aio-atlas](./vn-aio-atlas) — the empirical study **(in progress, draft v0.2)**
 
-The first scaled empirical study of AI Overview behavior in Vietnamese commercial search. Backed by 244,000 query-result observations and 1.4M citation events from December 2025 through April 2026 across 264 client projects. Output: a 30–40 page report and an interactive public dashboard.
+The first scaled empirical study of AI Overview behavior in Vietnamese commercial search. Backed by 244,000 query-result observations and 1.4M citation events from December 2025 through April 2026 across 264 client projects.
+
+**Live now:**
+- 📊 Interactive dashboard: [vn-aio-atlas-dashboard-production.up.railway.app](https://vn-aio-atlas-dashboard-production.up.railway.app) (per-vertical filtering, EN/VI translation toggle)
+- 📄 Full report: [REPORT.md (English)](./vn-aio-atlas/report/REPORT.md) / [REPORT_vi.md (Tiếng Việt)](./vn-aio-atlas/report/REPORT_vi.md)
+- 📈 10 findings: [FINDINGS.md](./vn-aio-atlas/FINDINGS.md)
+- 💾 Code + data infrastructure: [github.com/hdviettt/vn-aio-atlas](https://github.com/hdviettt/vn-aio-atlas)
 
 **What it is:** authority. The study makes SEONGON the canonical reference on VN AI search before any tooling exists.
 
@@ -53,9 +59,11 @@ All public outputs use anonymized aggregations only. Raw client data is never pu
 
 ## Status
 
-All three projects are in **planning**. See each project's `README.md` and `PLANNING.md` for details.
-
-Active work begins on the Atlas first, gated on internal SEONGON legal clearance for aggregated public publication.
+| Project | Status |
+|---|---|
+| [vn-aio-atlas](./vn-aio-atlas) | **Draft v0.2** — dashboard live, 10 findings validated, full report (EN+VI) published. Awaiting SEONGON legal clearance for public promotion. |
+| [vn-aio-predictor](./vn-aio-predictor) | Planning. Begins after Atlas reaches v1.0. |
+| [vn-aio-simulator](./vn-aio-simulator) | Planning. Begins after Predictor reaches v1.0. |
 
 ## About
 

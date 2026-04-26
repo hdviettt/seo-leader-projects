@@ -1,0 +1,12 @@
+# Each subproject is its own git repo with its own GitHub remote.
+# This umbrella repo only tracks the workspace-level README.
+vn-aio-atlas/
+vn-aio-predictor/
+vn-aio-simulator/
+
+# Local editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

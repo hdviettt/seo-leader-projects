@@ -61,7 +61,7 @@ All public outputs use anonymized aggregations only. Raw client data is never pu
 
 | Project | Status |
 |---|---|
-| [vn-aio-atlas](./vn-aio-atlas) | **Draft v0.3** — dashboard live, 12 findings validated (including F11 per-vertical feature variance + F12 share-of-voice over time), full report (EN+VI) published. Awaiting SEONGON legal clearance for public promotion. |
+| [vn-aio-atlas](./vn-aio-atlas) | **Draft v0.4** — publication-grade dashboard with sidebar nav, display typography, key-stat callouts; 12 findings (F9 now includes has_price showing -49% effect — a new headline); full report (EN+VI) published; deploy guard + cite-this-study + print stylesheet shipped. Awaiting SEONGON legal clearance. |
 | [vn-aio-predictor](./vn-aio-predictor) | Planning. Begins after Atlas reaches v1.0. |
 | [vn-aio-simulator](./vn-aio-simulator) | Planning. Begins after Predictor reaches v1.0. |
 
